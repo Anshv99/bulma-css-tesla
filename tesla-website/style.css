@@ -1,0 +1,10 @@
+.hero{
+    background: black url('roadster-hero-desktop.jpg') center / cover;
+}
+
+@media (max-width:1024px){ .hero{
+    background:black url('roadster-hero-desktop.jpg') center / cover;
+} }
+@media (max-width:768px){.hero{
+    background:black url('roadster-hero-mobile.jpg') center / cover;
+}}
